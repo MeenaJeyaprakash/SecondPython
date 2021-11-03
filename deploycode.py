@@ -26,12 +26,6 @@ while myfile:
     contents=myfile.readline()
     #print(contents)
     
-
-#with open('D:/Temp_Folder/list.txt','r') as f:
- #   contents = f.readline()
-    #print(contents)
-  #  while contents:
-    #contents = f.readline()
     contents=contents[:-2] #to get rid of new line character in notepad filelist
     #print(contents)
     dynamic_src = static_src+contents
